@@ -1,0 +1,30 @@
+h1. Slumpade artiklar i SiteVision
+
+En skriptmodul för att slumpa fram artiklar från ett arkiv i SiteVision.
+
+h2. Installation
+
+Installationen är busenkel:
+
+# Dra ut en skriptmodul
+# Klistra in innehållet i _javascript.js_ under _JavaScript_-delen
+# Klistra in innehållet i _velocity.vm_ under _Velocity_-delen
+
+h2. Konfiguration
+
+Det finns två saker du behöver ställa in:
+
+* Vilket arkiv som ska användas
+* Hur många artiklar du vill slumpa fram
+
+h3. ARCHIVE_ID
+
+Arkivets id hittar du genom att högerklicka på det och välja _Egenskaper_. Under _Allmänt > Information_ hittar du id-nummret.
+
+h3. NUMBER_OF_ARTICLES
+
+Hur många artiklar du vill hämta.
+
+h2. Copyright
+
+Copyright (c) 2010 Sven Dahlstrand
